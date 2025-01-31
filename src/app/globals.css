@@ -231,7 +231,7 @@ input[type="search" i]::-webkit-search-cancel-button {
 }
 
 .nav-border-reveal::after {
-  @apply content-[''] w-full h-px absolute bottom-0 bg-neutral-200;
+  @apply content-[''] w-full h-px absolute bottom-0 bg-primary;
 
   animation: nav-border-reveal;
   animation-timeline: scroll();
