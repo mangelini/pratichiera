@@ -5,7 +5,7 @@ export default async function Hero() {
   const t = await getTranslations("/");
 
   return (
-    <div className="relative h-[75vh] xl:h-[65vh] rounded-md w-full overflow-hidden">
+    <div className="relative h-[75vh] 3xl:h-[65vh] rounded-md w-full overflow-hidden">
       <video
         autoPlay
         loop
