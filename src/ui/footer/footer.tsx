@@ -39,8 +39,11 @@ export async function Footer() {
       <div className="container flex max-w-7xl flex-row flex-wrap justify-center gap-16 text-sm sm:justify-between">
         <div className="">
           <div className="flex w-full max-w-sm flex-col gap-2">
-            <h3 className="font-semibold">{t("newsletterTitle")}</h3>
-            <Newsletter />
+            <p>
+              Strada Provinciale per Busseto,
+              <br />
+              56/A 43010 Fontevivo, Parma
+            </p>
           </div>
         </div>
 
@@ -66,23 +69,17 @@ export async function Footer() {
       </div>
       <div className="container mt-8 flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-primary-foreground md:flex-row">
         <div>
-          <p>© 2024 Your Next Store</p>
-          <p>Delightful commerce for everyone</p>
+          <p>
+            Azienda Agricola e Caseificio Pratichiera S.S. di Marchini Orio,
+          </p>
+          <p>Davide e Amici Marisa</p>
         </div>
         <div className="flex items-center gap-4">
           <YnsLink
             className="inline-flex items-center gap-1 transition-colors text-primary-foreground"
-            href="https://x.com/zaiste"
+            href="https:/linkedin.com/in/mangelini"
           >
-            <TwitterIcon className="h-4 w-4" /> @zaiste
-            <span className="sr-only">Twitter</span>
-          </YnsLink>
-          <YnsLink
-            className="inline-flex items-center gap-1 transition-colors text-primary-foreground"
-            href="https://x.com/typeofweb"
-          >
-            <TwitterIcon className="h-4 w-4" /> @typeofweb
-            <span className="sr-only">Twitter</span>
+            <span>Made with &lt;3 by Matteo Angelini</span>
           </YnsLink>
         </div>
       </div>
