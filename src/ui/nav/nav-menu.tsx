@@ -4,17 +4,13 @@ import Link from "next/link";
 
 const links = [
   {
-    label: "Home",
-    href: "/",
+    label: "Shop Online",
+    href: "/products",
   },
   ...StoreConfig.categories.map(({ name, slug }) => ({
     label: name,
     href: `/category/${slug}`,
   })),
-  {
-    label: "Digital",
-    href: "/category/digital",
-  },
 ];
 
 export const NavMenu = () => {
@@ -41,7 +37,7 @@ export const NavMenu = () => {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="group inline-flex h-9 w-full items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-hidden"
+                  className="group inline-flex h-9 w-full items-center justify-start rounded-md bg-transparent px-4 py-2 text-base font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-hidden"
                 >
                   {link.label}
                 </Link>

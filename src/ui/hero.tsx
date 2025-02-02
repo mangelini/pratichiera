@@ -22,7 +22,7 @@ export default async function Hero() {
           </h2>
           <YnsLink
             className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-4xl font-serif font-medium text-white transition-colors hover:bg-background hover:text-primary focus:ring-1 focus:ring-primary border border-primary"
-            href={"/"}
+            href={"/products"}
           >
             {t("hero.action")}
           </YnsLink>
