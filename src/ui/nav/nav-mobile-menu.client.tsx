@@ -6,7 +6,6 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-  SheetClose,
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
 import { type ReactNode, useState } from "react";
