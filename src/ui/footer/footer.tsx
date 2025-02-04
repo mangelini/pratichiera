@@ -14,12 +14,8 @@ const sections = [
     header: "Support",
     links: [
       {
-        label: "Features",
-        href: "https://yournextstore.com/#features",
-      },
-      {
-        label: "Pricing",
-        href: "https://yournextstore.com/#pricing",
+        label: "About Us",
+        href: "/about-us",
       },
       {
         label: "Contact Us",
@@ -34,14 +30,30 @@ export async function Footer() {
 
   return (
     <footer className="w-full bg-primary p-6 text-primary-foreground md:py-12">
-      <div className="container flex max-w-7xl flex-row flex-wrap justify-center gap-16 text-sm sm:justify-between">
-        <div className="">
-          <div className="flex w-full max-w-sm flex-col gap-2">
+      <div className="container flex max-w-7xl flex-row flex-wrap justify-center gap-16 text-base sm:justify-between">
+        <div className="flex w-full max-w-sm gap-2">
+          <div className="flex w-full flex-col ">
             <p>
               Strada Provinciale per Busseto,
               <br />
               56/A 43010 Fontevivo, Parma
             </p>
+            <br />
+            <p>+39 0521 618116</p>
+          </div>
+
+          <div className="flex w-full flex-col">
+            <p><b>Monday:</b>
+              <br />
+              8:30AM-12:30PM</p>
+            <br />
+            <p><b>Tuesday - Saturday:</b>
+              <br />
+              8:30AM-12:30PM
+              <br />
+              3:30PM-7:00PM</p>
+            <br />
+            <p><b>Sunday closed</b></p>
           </div>
         </div>
 
